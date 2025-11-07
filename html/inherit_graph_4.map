@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classTramaBase.html" title="Clase base abstracta para todas las tramas del protocolo PRT&#45;7." alt="" coords="5,31,100,56"/>
+<area shape="rect" id="Node000001" href="$classTramaLoad.html" title="Trama de tipo LOAD &#45; Contiene un carácter para decodificar." alt="" coords="148,5,241,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="113,30,147,24,148,29,114,35"/>
+<area shape="rect" id="Node000002" href="$classTramaMap.html" title="Trama de tipo MAP &#45; Contiene instrucción de rotación." alt="" coords="149,55,240,80"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="114,51,150,57,149,62,113,56"/>
+</map>

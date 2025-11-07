@@ -1,0 +1,72 @@
+\doxysection{Rotor\+De\+Mapeo Class Reference}
+\hypertarget{classRotorDeMapeo}{}\label{classRotorDeMapeo}\index{RotorDeMapeo@{RotorDeMapeo}}
+
+
+Implementación del rotor de mapeo circular.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classRotorDeMapeo_aa4a3be7c3ce2021244e4977e4ad856c9}\label{classRotorDeMapeo_aa4a3be7c3ce2021244e4977e4ad856c9} 
+{\bfseries Rotor\+De\+Mapeo} ()
+\begin{DoxyCompactList}\small\item\em Constructor que inicializa el rotor con A-\/Z. \end{DoxyCompactList}\item 
+\Hypertarget{classRotorDeMapeo_adc5f4bfe5b8d66ba7c9bac38f4be4c5c}\label{classRotorDeMapeo_adc5f4bfe5b8d66ba7c9bac38f4be4c5c} 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+Rotor\+De\+Mapeo} ()
+\begin{DoxyCompactList}\small\item\em Destructor que libera toda la memoria del rotor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRotorDeMapeo_ad221b5799dcf13def0afa76ae126ae0f}{rotar}} (int n)
+\begin{DoxyCompactList}\small\item\em Rota el rotor N posiciones (Versión Eficiente) \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{classRotorDeMapeo_a70d4ad4bcef4bd5cec9c8d2602859f5c}{get\+Mapeo}} (char in)
+\begin{DoxyCompactList}\small\item\em Obtiene el mapeo de un carácter según la rotación actual. \end{DoxyCompactList}\item 
+\Hypertarget{classRotorDeMapeo_a67cfdef538ac55bd7c30ecc56c625bb9}\label{classRotorDeMapeo_a67cfdef538ac55bd7c30ecc56c625bb9} 
+char {\bfseries get\+Cabeza} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el carácter actual de la cabeza (posición \textquotesingle{}A\textquotesingle{}) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementación del rotor de mapeo circular. 
+
+
+\begin{DoxyItemize}
+\item Actúa como un "{}disco de cifrado"{} que contiene el alfabeto (A-\/Z) y puede rotar para cambiar el mapeo de caracteres. 
+\end{DoxyItemize}
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classRotorDeMapeo_a70d4ad4bcef4bd5cec9c8d2602859f5c}\label{classRotorDeMapeo_a70d4ad4bcef4bd5cec9c8d2602859f5c} 
+\index{RotorDeMapeo@{RotorDeMapeo}!getMapeo@{getMapeo}}
+\index{getMapeo@{getMapeo}!RotorDeMapeo@{RotorDeMapeo}}
+\doxysubsubsection{\texorpdfstring{getMapeo()}{getMapeo()}}
+{\footnotesize\ttfamily char Rotor\+De\+Mapeo\+::get\+Mapeo (\begin{DoxyParamCaption}\item[{char}]{in }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene el mapeo de un carácter según la rotación actual. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & Carácter de entrada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Carácter mapeado según la posición del rotor 
+\end{DoxyReturn}
+\Hypertarget{classRotorDeMapeo_ad221b5799dcf13def0afa76ae126ae0f}\label{classRotorDeMapeo_ad221b5799dcf13def0afa76ae126ae0f} 
+\index{RotorDeMapeo@{RotorDeMapeo}!rotar@{rotar}}
+\index{rotar@{rotar}!RotorDeMapeo@{RotorDeMapeo}}
+\doxysubsubsection{\texorpdfstring{rotar()}{rotar()}}
+{\footnotesize\ttfamily void Rotor\+De\+Mapeo\+::rotar (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Rota el rotor N posiciones (Versión Eficiente) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Número de posiciones a rotar (positivo o negativo) \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{decodificador__prt7_8cpp}{decodificador\+\_\+prt7.\+cpp}}\end{DoxyCompactItemize}

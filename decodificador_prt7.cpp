@@ -531,9 +531,9 @@ int main() {
                 break;
             }
         }
+        std::cerr << "ERROR: No se pudo conectar a ningun puerto serial." << std::endl;
         
         if (fd == -1) {
-            std::cerr << "ERROR: No se pudo conectar a ningun puerto serial." << std::endl;
             std::cerr << "Verifique que el Arduino este conectado." << std::endl;
             return 1;
         }

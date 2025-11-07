@@ -1,0 +1,5 @@
+<map id="TramaLoad" name="TramaLoad">
+<area shape="rect" id="Node000001" title="Trama de tipo LOAD &#45; Contiene un carácter para decodificar." alt="" coords="6,79,99,104"/>
+<area shape="rect" id="Node000002" href="$classTramaBase.html" title="Clase base abstracta para todas las tramas del protocolo PRT&#45;7." alt="" coords="5,5,100,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,44,55,79,50,79,50,44"/>
+</map>

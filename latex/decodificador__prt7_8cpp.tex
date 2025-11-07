@@ -1,0 +1,72 @@
+\doxysection{decodificador\+\_\+prt7.\+cpp File Reference}
+\hypertarget{decodificador__prt7_8cpp}{}\label{decodificador__prt7_8cpp}\index{decodificador\_prt7.cpp@{decodificador\_prt7.cpp}}
+
+
+Sistema Decodificador de Protocolo PRT-\/7.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fcntl.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$termios.\+h$>$}\newline
+{\ttfamily \#include $<$cstring$>$}\newline
+Include dependency graph for decodificador\+\_\+prt7.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{decodificador__prt7_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structNodoRotor}{Nodo\+Rotor}}
+\begin{DoxyCompactList}\small\item\em Nodo para la lista circular del rotor de mapeo. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structNodoCarga}{Nodo\+Carga}}
+\begin{DoxyCompactList}\small\item\em Nodo para la lista doblemente enlazada de caracteres decodificados. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classTramaBase}{Trama\+Base}}
+\begin{DoxyCompactList}\small\item\em Clase base abstracta para todas las tramas del protocolo PRT-\/7. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classRotorDeMapeo}{Rotor\+De\+Mapeo}}
+\begin{DoxyCompactList}\small\item\em Implementación del rotor de mapeo circular. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classListaDeCarga}{Lista\+De\+Carga}}
+\begin{DoxyCompactList}\small\item\em Lista doblemente enlazada para almacenar caracteres decodificados. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classTramaLoad}{Trama\+Load}}
+\begin{DoxyCompactList}\small\item\em Trama de tipo LOAD -\/ Contiene un carácter para decodificar. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classTramaMap}{Trama\+Map}}
+\begin{DoxyCompactList}\small\item\em Trama de tipo MAP -\/ Contiene instrucción de rotación. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{decodificador__prt7_8cpp_a16c9408214f8d94d502648c971f575c9}\label{decodificador__prt7_8cpp_a16c9408214f8d94d502648c971f575c9} 
+bool {\bfseries son\+Iguales} (const char \texorpdfstring{$\ast$}{*}str1, const char \texorpdfstring{$\ast$}{*}str2)
+\begin{DoxyCompactList}\small\item\em Compara dos cadenas manualmente. \end{DoxyCompactList}\item 
+\Hypertarget{decodificador__prt7_8cpp_acdb05cc5db7cf144170b22ff34f301ac}\label{decodificador__prt7_8cpp_acdb05cc5db7cf144170b22ff34f301ac} 
+int {\bfseries a\+Entero} (const char \texorpdfstring{$\ast$}{*}str)
+\begin{DoxyCompactList}\small\item\em Convierte cadena a entero manualmente. \end{DoxyCompactList}\item 
+\Hypertarget{decodificador__prt7_8cpp_acdbb69db140b99c36256cb03f677f570}\label{decodificador__prt7_8cpp_acdbb69db140b99c36256cb03f677f570} 
+\mbox{\hyperlink{classTramaBase}{Trama\+Base}} \texorpdfstring{$\ast$}{*} {\bfseries parsear\+Trama} (char \texorpdfstring{$\ast$}{*}linea)
+\begin{DoxyCompactList}\small\item\em Parsea una línea del serial y crea la trama correspondiente. \end{DoxyCompactList}\item 
+\Hypertarget{decodificador__prt7_8cpp_a49278c5dd5fbab3c415a34f2530d3938}\label{decodificador__prt7_8cpp_a49278c5dd5fbab3c415a34f2530d3938} 
+int {\bfseries abrir\+Puerto\+Serial} (const char \texorpdfstring{$\ast$}{*}puerto)
+\begin{DoxyCompactList}\small\item\em Abre puerto serial en Linux/\+Mac. \end{DoxyCompactList}\item 
+\Hypertarget{decodificador__prt7_8cpp_a72149f95e20002e1066d41501bf3bad0}\label{decodificador__prt7_8cpp_a72149f95e20002e1066d41501bf3bad0} 
+bool {\bfseries leer\+Linea\+Serial} (int fd, char \texorpdfstring{$\ast$}{*}buffer, int max\+Len)
+\begin{DoxyCompactList}\small\item\em Lee una línea del puerto serial (Linux/\+Mac) \end{DoxyCompactList}\item 
+\Hypertarget{decodificador__prt7_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{decodificador__prt7_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int {\bfseries main} ()
+\begin{DoxyCompactList}\small\item\em Función principal del decodificador PRT-\/7. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Sistema Decodificador de Protocolo PRT-\/7. 
+
+\begin{DoxyAuthor}{Author}
+Sistema de Ciberseguridad Industrial 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2025
+\begin{DoxyItemize}
+\item Este programa implementa un decodificador para el protocolo PRT-\/7, que recibe tramas de un Arduino y ensambla mensajes ocultos mediante un sistema de rotación de mapeo circular. 
+\end{DoxyItemize}
+\end{DoxyDate}

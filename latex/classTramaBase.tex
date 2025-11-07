@@ -1,0 +1,57 @@
+\doxysection{Trama\+Base Class Reference}
+\hypertarget{classTramaBase}{}\label{classTramaBase}\index{TramaBase@{TramaBase}}
+
+
+Clase base abstracta para todas las tramas del protocolo PRT-\/7.  
+
+
+
+
+Inheritance diagram for Trama\+Base\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{classTramaBase__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{classTramaBase_a6e8a2f2e5cbcc018f98b1a0384d37bcb}{procesar}} (\mbox{\hyperlink{classListaDeCarga}{Lista\+De\+Carga}} \texorpdfstring{$\ast$}{*}, \mbox{\hyperlink{classRotorDeMapeo}{Rotor\+De\+Mapeo}} \texorpdfstring{$\ast$}{*}rotor)=0
+\begin{DoxyCompactList}\small\item\em Método virtual puro para procesar la trama. \end{DoxyCompactList}\item 
+\Hypertarget{classTramaBase_a18ebfa4d2bfccd937d095d31fbb0aa95}\label{classTramaBase_a18ebfa4d2bfccd937d095d31fbb0aa95} 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}\+Trama\+Base} ()
+\begin{DoxyCompactList}\small\item\em Destructor virtual obligatorio para limpieza polimórfica. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase base abstracta para todas las tramas del protocolo PRT-\/7. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classTramaBase_a6e8a2f2e5cbcc018f98b1a0384d37bcb}\label{classTramaBase_a6e8a2f2e5cbcc018f98b1a0384d37bcb} 
+\index{TramaBase@{TramaBase}!procesar@{procesar}}
+\index{procesar@{procesar}!TramaBase@{TramaBase}}
+\doxysubsubsection{\texorpdfstring{procesar()}{procesar()}}
+{\footnotesize\ttfamily virtual void Trama\+Base\+::procesar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classListaDeCarga}{Lista\+De\+Carga}} \texorpdfstring{$\ast$}{*}}]{,  }\item[{\mbox{\hyperlink{classRotorDeMapeo}{Rotor\+De\+Mapeo}} \texorpdfstring{$\ast$}{*}}]{rotor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Método virtual puro para procesar la trama. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em carga} & Puntero a la lista de carga donde se almacenan caracteres \\
+\hline
+{\em rotor} & Puntero al rotor de mapeo circular \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classTramaLoad_ade8ff3faef2c7319ea34da8a53bd5896}{Trama\+Load}}, and \mbox{\hyperlink{classTramaMap_a2108fdc79edbd189744fdc3d287a687d}{Trama\+Map}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{decodificador__prt7_8cpp}{decodificador\+\_\+prt7.\+cpp}}\end{DoxyCompactItemize}
