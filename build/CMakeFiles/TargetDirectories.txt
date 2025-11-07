@@ -1,0 +1,9 @@
+/home/deivod/Documentos/Dr. Artes Oscuras/ds-unidad-2-actividad-2-listasdobleenlazadas-DavidIbarra01/build/CMakeFiles/decodificador_prt7.dir
+/home/deivod/Documentos/Dr. Artes Oscuras/ds-unidad-2-actividad-2-listasdobleenlazadas-DavidIbarra01/build/CMakeFiles/package.dir
+/home/deivod/Documentos/Dr. Artes Oscuras/ds-unidad-2-actividad-2-listasdobleenlazadas-DavidIbarra01/build/CMakeFiles/package_source.dir
+/home/deivod/Documentos/Dr. Artes Oscuras/ds-unidad-2-actividad-2-listasdobleenlazadas-DavidIbarra01/build/CMakeFiles/edit_cache.dir
+/home/deivod/Documentos/Dr. Artes Oscuras/ds-unidad-2-actividad-2-listasdobleenlazadas-DavidIbarra01/build/CMakeFiles/rebuild_cache.dir
+/home/deivod/Documentos/Dr. Artes Oscuras/ds-unidad-2-actividad-2-listasdobleenlazadas-DavidIbarra01/build/CMakeFiles/list_install_components.dir
+/home/deivod/Documentos/Dr. Artes Oscuras/ds-unidad-2-actividad-2-listasdobleenlazadas-DavidIbarra01/build/CMakeFiles/install.dir
+/home/deivod/Documentos/Dr. Artes Oscuras/ds-unidad-2-actividad-2-listasdobleenlazadas-DavidIbarra01/build/CMakeFiles/install/local.dir
+/home/deivod/Documentos/Dr. Artes Oscuras/ds-unidad-2-actividad-2-listasdobleenlazadas-DavidIbarra01/build/CMakeFiles/install/strip.dir

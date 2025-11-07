@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/decodificador_prt7.dir/decodificador_prt7.cpp.o -o decodificador_prt7 
